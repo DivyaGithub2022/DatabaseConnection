@@ -1,0 +1,25 @@
+package test;
+
+public class DataTypesExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1 = 20;
+		int num2 = 30;
+		
+		//Arithmetic operators
+		//subtraction -
+		//multiplication *
+		//Division /
+		
+		int sum = num1 + num2;
+		
+		System.out.println("The sum of two numbers is " + sum);
+		String result = "The sum of two numbers is " + sum;
+		
+		System.out.println(result);
+			
+
+	}
+
+}

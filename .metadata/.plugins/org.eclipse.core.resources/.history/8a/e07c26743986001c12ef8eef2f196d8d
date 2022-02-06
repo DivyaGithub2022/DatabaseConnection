@@ -1,0 +1,24 @@
+package Collections;
+
+import java.util.HashMap;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HashMap<Integer,String> map1 = new HashMap<Integer, String>();
+		map1.put(1, "Suraj");
+		map1.put(2, "Niraj");
+		map1.put(3, "Sam");
+		//key can be integer or string as well
+		//Key should be unique
+		
+		System.out.println(map1);
+		
+		//update the data in map
+		map1.put(3, "Saroj");
+		System.out.println(map1);
+
+	}
+
+}

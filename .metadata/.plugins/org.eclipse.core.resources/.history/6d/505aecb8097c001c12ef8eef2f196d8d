@@ -1,0 +1,24 @@
+package test;
+
+public class ExceptionHandling {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int num = 10;
+		int array[] = {1,2,3,4};
+		
+		try {
+			int result = num/2;
+			System.out.println(array[10]);
+			
+		}catch(ArithmeticException e) {
+			System.out.println("Inside Arithmetic Exception block");
+		}/*catch(Exception e) {
+			System.out.println("Inside Exception block");
+		}*/
+		System.out.println("after try and catch");
+
+	}
+
+}

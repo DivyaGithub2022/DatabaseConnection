@@ -1,0 +1,23 @@
+package Collections;
+
+import java.util.PriorityQueue;
+
+public class QueueExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		PriorityQueue<String> pq1 = new PriorityQueue<String>();
+		
+		pq1.add("Rimy");
+		pq1.add("Ron");
+		pq1.add("Lisa");
+		pq1.add("Jen");
+		
+		System.out.println(pq1);
+		
+		
+
+	}
+
+}

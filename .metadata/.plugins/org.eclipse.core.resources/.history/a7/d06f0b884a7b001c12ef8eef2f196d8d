@@ -1,0 +1,28 @@
+package test;
+
+import java.util.Scanner;
+
+public class LoopsExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Print numbers from 1 to 10
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter number");
+		scanner.close();
+		
+		int num1 = 1;
+		//loop is a block of statements that will be executed repeatedly until the loop reaches the condition (here num1=10)
+		while (num1 <=10) {
+			System.out.println(num1);
+			num1 = num1 + 1;
+		}
+		
+		
+		
+		
+
+	}
+
+}

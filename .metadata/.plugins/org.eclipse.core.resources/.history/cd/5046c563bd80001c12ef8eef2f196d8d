@@ -1,0 +1,21 @@
+package oops;
+
+public class ChildClass extends Person {
+	
+	String Profession;
+	
+	public void print() {
+		System.out.println("Inside Child");
+	}
+	
+	public ChildClass() {
+		
+	}
+	
+	public ChildClass(String Name, int Age) {
+		
+		super(Name, Age);//calling the parent class constructor as it is
+		this.Profession = Profession;
+		
+	}
+}

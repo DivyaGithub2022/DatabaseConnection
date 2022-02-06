@@ -1,0 +1,18 @@
+package Collections;
+
+public class HomeworkRemoveDuplicate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str1 = "Green World Clean World";
+		
+		System.out.println(str1.length());
+		
+		String[] arraywords = str1.split(" ");
+		System.out.println(arraywords[1]);
+		
+
+	}
+
+}

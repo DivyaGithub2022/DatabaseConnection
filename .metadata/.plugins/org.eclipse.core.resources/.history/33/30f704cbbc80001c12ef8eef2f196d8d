@@ -1,0 +1,9 @@
+package oops;
+
+public class ChildClass extends Person {
+	
+	public void print() {
+		System.out.println("Inside Child");
+	}
+
+}

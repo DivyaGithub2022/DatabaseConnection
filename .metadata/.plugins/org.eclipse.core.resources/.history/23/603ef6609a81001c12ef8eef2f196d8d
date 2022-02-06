@@ -1,0 +1,20 @@
+package Collections;
+
+import java.util.HashSet;
+
+public class SetExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<String> set1 = new HashSet<String>();
+		set1.add("Tom");
+		set1.add("Jess");
+		set1.add("Jack");
+		set1.add("Jill");
+		
+		System.out.println(set1);
+
+	}
+
+}

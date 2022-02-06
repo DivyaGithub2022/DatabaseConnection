@@ -1,0 +1,38 @@
+package oops;
+
+//no need for a main method here
+public class Employee {
+	
+	String Name; //private String Name; private can be accessed within this class only.
+	int EmployeeId; //protected int EmpId; protected is accessed by this class and another classes inside the same package
+	int Salary;//public int sal; public can be accessed by all classes (world)
+	
+	//name of the Constructor should be same as your class name
+	//constructor never return anything (dont put void or int etc)
+	//CONSTRUCTOR
+	public Employee(String Name,int EmployeeId,int Salary) {
+		
+		this.Name = Name;
+		this.EmployeeId = EmployeeId;
+		this.Salary = Salary;
+		
+	}
+	
+	//also can be done this way as well
+	//there can be multiple constructors in a class but with different parameters
+	public Employee(String p1,int p2) {
+		
+		this.Name = p1;
+		this.EmployeeId = p2;
+		//this.Salary = p3;
+		
+	}
+
+	//if you want to access something which belongs to your class then use 'this.'
+	
+	public void PrintName() {
+		
+		System.out.println("Name of the employee "+Name);
+	}
+
+}

@@ -1,0 +1,28 @@
+/**
+ * 
+ */
+package oops;
+
+public class RunnerClass {
+//Runnerclass to create object
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Employee emp1 = new Employee();
+		
+		emp1.EmployeeId = 2314;
+		emp1.Name = "Sachin";
+		emp1.Salary = 1000;
+		
+		Employee emp2 = new Employee();
+		
+		emp2.EmployeeId = 2315;
+		emp2.Name = "Mahesh";
+		emp2.Salary = 1200;
+		
+		System.out.println("Name of the emp1 "+emp1.Name);
+		System.out.println("Name of the emp1 "+emp2.Name);
+		
+	}
+
+}

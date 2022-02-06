@@ -1,0 +1,12 @@
+package Collections;
+
+//HW: 05 02 2022
+
+public class HomeworkWordOccurrence {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

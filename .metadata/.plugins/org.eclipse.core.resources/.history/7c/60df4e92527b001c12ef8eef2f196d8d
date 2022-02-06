@@ -1,0 +1,25 @@
+package test;
+
+public class ReversalExamples {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//reverse String
+		//reversal of Array
+		//reversal of Number
+		
+		String str1 = "Green India Clean India";
+		String revStr1 = "";
+		
+		for(int index1=str1.length()-1;index1>=0;index1--) {
+			
+			revStr1 = revStr1 + str1.charAt(index1);
+			
+		}
+		
+		System.out.println(revStr1);
+
+	}
+
+}

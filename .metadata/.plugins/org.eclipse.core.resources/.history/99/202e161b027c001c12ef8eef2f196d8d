@@ -1,0 +1,37 @@
+package test;
+
+import java.util.Scanner;
+
+public class PrimeNumCheck {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("enter number");
+		int primenum = scanner.nextInt();
+		
+		boolean flag = true;
+		
+		int index;
+		for(index=2;index<primenum;index++) {
+			
+			int temp = primenum%index;
+			if(temp == 0) {
+				
+				flag = false;
+				break;
+			}
+			
+		}
+		
+		if(flag == true) {
+			
+			System.out.println("this is aprime number");
+			else
+			System.out.println("this is not a prime number"); 
+		}
+
+	}
+
+}

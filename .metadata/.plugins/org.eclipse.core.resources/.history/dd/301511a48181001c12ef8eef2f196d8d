@@ -1,0 +1,23 @@
+package Collections;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		ArrayList<String> arraylist1 = new ArrayList<String>(); //dont need to specify the size here
+		arraylist1.add("Rahul");
+		arraylist1.add("Rohit");
+		arraylist1.add("Pikachu");
+		arraylist1.add("Lycan");
+		arraylist1.add("snowy");
+		
+		System.out.println("The size of arrayList1 is " + arraylist1.size());
+		arraylist1.remove(0); //provide the index/location
+		System.out.println("The size of arrayList1 is " + arraylist1.size());
+
+	}
+
+}

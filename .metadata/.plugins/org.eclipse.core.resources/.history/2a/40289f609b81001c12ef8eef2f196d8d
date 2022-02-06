@@ -1,0 +1,28 @@
+package Collections;
+
+import java.util.HashSet;
+
+public class SetExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<String> set1 = new HashSet<String>();
+		set1.add("John");
+		set1.add("Jess");
+		set1.add("Jack");
+		set1.add("Jill");
+		
+		System.out.println(set1);
+		/*
+		set1.add("name1");
+		set1.add("name2");
+		set1.add("name3");
+		set1.add("name4");
+		
+		System.out.println(set1);
+		*/
+
+	}
+
+}

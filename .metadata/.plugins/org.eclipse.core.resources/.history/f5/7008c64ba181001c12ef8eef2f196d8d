@@ -1,0 +1,31 @@
+package Collections;
+
+import java.util.Collection;
+import java.util.LinkedHashSet;
+
+public class HomeworkRemoveDuplicate {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String str1 = "Clean World Green World";
+		
+		System.out.println(str1.length());
+		
+		String[] arraywords = str1.split(" ");
+		//System.out.println(arraywords[1]);
+		
+		LinkedHashSet<String> linkset1 = new LinkedHashSet<String>();
+		System.out.println(arraywords.length);
+		
+		for(int index=0;index<arraywords.length;index++) {
+			
+			linkset1.add(arraywords[index]);
+		}
+		
+		System.out.println(linkset1);
+		
+
+	}
+
+}

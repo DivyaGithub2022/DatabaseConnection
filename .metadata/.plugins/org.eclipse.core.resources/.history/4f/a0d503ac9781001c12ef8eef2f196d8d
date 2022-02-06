@@ -1,0 +1,40 @@
+package Collections;
+
+import java.util.ArrayDeque;
+import java.util.PriorityQueue;
+
+public class QueueExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		PriorityQueue<String> pq1 = new PriorityQueue<String>();
+		
+		pq1.add("Rimy");
+		pq1.add("Ron");
+		pq1.add("Lisa");
+		pq1.add("Jen");
+		
+		System.out.println(pq1);
+		
+		System.out.println("First value: " + pq1.peek());
+		System.out.println("First value: " + pq1.poll());//retrieves but removes the value as well
+		
+		System.out.println(pq1);
+		
+		ArrayDeque<String> dq1 = new ArrayDeque<String>(); //order is maintained
+		
+		dq1.add("Rimy");
+		dq1.add("Ron");
+		dq1.add("Jess");
+		dq1.add("Lisa");
+		dq1.add("Jen");
+		
+		System.out.println(dq1.peek());
+		System.out.println(dq1.peekFirst());//this not there in PriorityQueue
+		System.out.println(dq1.peekLast());//this not there in PriorityQueue
+		System.out.println("deque--- " + dq1);
+
+	}
+
+}

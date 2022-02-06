@@ -1,0 +1,10 @@
+package oops;
+
+//no need for a main method here
+public class Employee {
+	
+	String Name;
+	int EmployeeId;
+	int Salary;
+
+}
